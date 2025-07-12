@@ -82,7 +82,7 @@ add this line in crontan -e
 
 GUI:
 
-https://singular-mooncake-0db712.netlify.app/
+ https://singular-mooncake-0db712.netlify.app/
 Entering service name
 Buttons to check status, restart service, show logs
 Live log stream area
