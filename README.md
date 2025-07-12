@@ -75,12 +75,13 @@ crontab -e
 add this line in crontan -e
 */5 * * * * /path/to/auto-healer.sh
 
-🧪 Output
+🧪 Output:
 ✅ Terminal output showing monitored and restarted services
 📄 /var/log/autohealer.log contains timestamped logs
 📧 Email alerts sent on service failure
 
-GUI
+GUI:
+
 https://singular-mooncake-0db712.netlify.app/
 Entering service name
 Buttons to check status, restart service, show logs
@@ -88,12 +89,14 @@ Live log stream area
 Built using HTML, CSS, JavaScript (Fetch API)
 
 📈 Future Scope
+
 Add uptime tracking and analytics
 Telegram/Slack notifications
 Use Python for enhanced error handling
 Deploy multi-node or distributed monitoring
 
-📚 Deliverables
+📚 Deliverables:
+
 Bash script: auto-healer.sh
 Cron job setup instructions
 Log files
