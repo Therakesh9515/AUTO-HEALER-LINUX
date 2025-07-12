@@ -58,30 +58,21 @@ In typical Linux environments, the failure of core services (e.g., web servers, 
 git clone https://github.com/your-username/auto-healer-linux.git
 cd auto-healer-linux
 
-2. Make the Script Executable
-bash
-Copy
-Edit
+2. Make the Script Executabel
 chmod +x auto-healer.sh
 
 3. Install Required Packages
 bash
-Copy
-Edit
 sudo apt-get install mailutils
 
 4. Run the Script Manually (Optional)
 bash
-Copy
-Edit
 ./auto-healer.sh
 
 5. Schedule with Cron (every 5 minutes)
 bash
-Copy
-Edit
 crontab -e
-# Add this line
+add this line in crontan -e
 */5 * * * * /path/to/auto-healer.sh
 
 🧪 Output
