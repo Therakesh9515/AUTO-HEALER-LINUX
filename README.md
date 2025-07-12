@@ -57,21 +57,25 @@ In typical Linux environments, the failure of core services (e.g., web servers, 
 ```bash
 git clone https://github.com/your-username/auto-healer-linux.git
 cd auto-healer-linux
+
 2. Make the Script Executable
 bash
 Copy
 Edit
 chmod +x auto-healer.sh
+
 3. Install Required Packages
 bash
 Copy
 Edit
 sudo apt-get install mailutils
+
 4. Run the Script Manually (Optional)
 bash
 Copy
 Edit
 ./auto-healer.sh
+
 5. Schedule with Cron (every 5 minutes)
 bash
 Copy
@@ -82,42 +86,28 @@ crontab -e
 
 🧪 Output
 ✅ Terminal output showing monitored and restarted services
-
 📄 /var/log/autohealer.log contains timestamped logs
-
 📧 Email alerts sent on service failure
 
-🌐 Optional: Web GUI
+GUI
 https://singular-mooncake-0db712.netlify.app/
-
 Entering service name
-
 Buttons to check status, restart service, show logs
-
 Live log stream area
-
 Built using HTML, CSS, JavaScript (Fetch API)
 
 📈 Future Scope
 Add uptime tracking and analytics
-
 Telegram/Slack notifications
-
 Use Python for enhanced error handling
-
 Deploy multi-node or distributed monitoring
 
 📚 Deliverables
 Bash script: auto-healer.sh
-
 Cron job setup instructions
-
 Log files
-
 Sample email notification
-
 Project report & presentation
-
 Flask web interface (optional)
 
 🤝 Contributing
@@ -128,7 +118,6 @@ This project is open-source and free to use under the MIT License.
 
 🙏 Acknowledgements
 Developed under the guidance of Shashidhar
-
 Part of Cyber Security Minor Project at TEKS Academy
 
 📞 Contact
