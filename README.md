@@ -57,65 +57,96 @@ In typical Linux environments, the failure of core services (e.g., web servers, 
 ```bash
 git clone https://github.com/your-username/auto-healer-linux.git
 cd auto-healer-linux
+```
 
-2. Make the Script Executabel
+### 2. Make the Script Executable
+
+```bash
 chmod +x auto-healer.sh
+```
 
-3. Install Required Packages
-bash
+### 3. Install Required Packages
+
+```bash
 sudo apt-get install mailutils
+```
 
-4. Run the Script Manually (Optional)
-bash
+### 4. Run the Script Manually (Optional)
+
+```bash
 ./auto-healer.sh
+```
 
-5. Schedule with Cron (every 5 minutes)
-bash
+### 5. Schedule with Cron (every 5 minutes)
+
+```bash
 crontab -e
-add this line in crontan -e
+# Add this line
 */5 * * * * /path/to/auto-healer.sh
+```
 
-🧪 Output:
-✅ Terminal output showing monitored and restarted services
-📄 /var/log/autohealer.log contains timestamped logs
-📧 Email alerts sent on service failure
+---
 
-GUI:
+## 🧪 Output
 
- https://singular-mooncake-0db712.netlify.app/
-Entering service name
-Buttons to check status, restart service, show logs
-Live log stream area
-Built using HTML, CSS, JavaScript (Fetch API)
+- ✅ Terminal output showing monitored and restarted services
+- 📄 `/var/log/autohealer.log` contains timestamped logs
+- 📧 Email alerts sent on service failure
 
-📈 Future Scope
+---
 
-Add uptime tracking and analytics
-Telegram/Slack notifications
-Use Python for enhanced error handling
-Deploy multi-node or distributed monitoring
+## 🌐 Optional: Web GUI
 
-📚 Deliverables:
+A web interface is available using Flask for: https://singular-mooncake-0db712.netlify.app/
+- Entering service name
+- Buttons to check status, restart service, show logs
+- Live log stream area
+- Built using HTML, CSS, JavaScript (Fetch API)
 
-Bash script: auto-healer.sh
-Cron job setup instructions
-Log files
-Sample email notification
-Project report & presentation
-Flask web interface (optional)
+---
 
-🤝 Contributing
+## 📈 Future Scope
+
+- Add uptime tracking and analytics
+- Telegram/Slack notifications
+- Use Python for enhanced error handling
+- Deploy multi-node or distributed monitoring
+
+---
+
+## 📚 Deliverables
+
+- Bash script: `auto-healer.sh`
+- Cron job setup instructions
+- Log files
+- Sample email notification
+- Project report & presentation
+- Flask web interface (optional)
+
+---
+
+## 🤝 Contributing
+
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-📄 License
+---
+
+## 📄 License
+
 This project is open-source and free to use under the MIT License.
 
-🙏 Acknowledgements
-Developed under the guidance of Shashidhar
-Part of Cyber Security Minor Project at TEKS Academy
+---
 
-📞 Contact
-P. Rakesh
-📱 +91 9515924411
-📧 your-email@example.com
+## 🙏 Acknowledgements
+
+- Developed under the guidance of **Shashidhar**  
+- Part of **Cyber Security** Minor Project at **TEKS Academy**
+
+---
+
+## 📞 Contact
+
+**P. Rakesh**  
+📱 +91 9515924411  
+📧 therakesh9515@gmail.com  
 📍 India
